@@ -11,4 +11,4 @@ jobs:
     
     steps:
       - uses: ./print-message@master
-        with: "Hello Me"
+        with: "Yu"
