@@ -12,5 +12,5 @@ outputs:
     description: this action does not produce any output
 runs:
   using: "node16"
-  main: "index.js
+  main: "index.js"
   
