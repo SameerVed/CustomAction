@@ -1,0 +1,14 @@
+name: Print message workflow
+
+on:
+  push:
+    branches:
+      -master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: ./print-message@master
+        with: "Hello Me"
