@@ -11,6 +11,6 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4.1.0
-      - uses: CustomAction/print-message@master
+      - uses: SameerVed/CustomAction@master
         with: 
           message: "Yu"
